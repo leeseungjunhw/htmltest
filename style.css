@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 a {
@@ -100,4 +101,60 @@ li {
     color: black;
 
     cursor: pointer;
+}
+
+.about {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.about h2 {
+    font-size: 25px;
+    color: blue;
+}
+.about h1 {
+    font-size: 40px;
+
+}
+.about .contents {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.about .left {
+    width: 400px;
+    height: 500px;
+}
+.about img {
+    width: 400px;
+    height: 500px;
+}
+.about .right {
+    width: 800px;
+    height: 500px;
+    padding-left: 10px;
+}
+.about .right h3{
+font-size: 22px;
+color: blue;
+}
+.about .right li{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.fa-brands{
+    font-size: 50px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-facebook{
+    color: #3B5998;
+}
+.fa-instagram{
+    color: orange;
+}
+html{
+    scroll-behavior: smooth;
 }
