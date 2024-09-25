@@ -18,7 +18,7 @@ li {
 .container {
     width: 100%;
     height: 1200px;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(im1.jpeg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(im1.jpeg) no-repeat;
     background-size: cover;
     color: white;
 }
@@ -96,7 +96,8 @@ li {
     font-weight: bold;
     color: white;
 }
-.main button:hover{
+
+.main button:hover {
     background-color: white;
     color: black;
 
@@ -109,52 +110,204 @@ li {
     margin: 0 auto;
     margin-top: 150px;
 }
+
 .about h2 {
     font-size: 25px;
     color: blue;
 }
+
 .about h1 {
     font-size: 40px;
 
 }
+
 .about .contents {
     width: 100%;
     height: 500px;
     display: flex;
 }
+
 .about .left {
     width: 400px;
     height: 500px;
 }
+
 .about img {
     width: 400px;
     height: 500px;
 }
+
 .about .right {
     width: 800px;
     height: 500px;
     padding-left: 10px;
 }
-.about .right h3{
-font-size: 22px;
-color: blue;
+
+.about .right h3 {
+    font-size: 22px;
+    color: blue;
 }
-.about .right li{
+
+.about .right li {
     font-size: 22px;
     margin-top: 20px;
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 50px;
 }
-.fa-youtube{
+
+.fa-youtube {
     color: red;
 }
-.fa-facebook{
+
+.fa-facebook {
     color: #3B5998;
 }
-.fa-instagram{
+
+.fa-instagram {
     color: orange;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+}
+
+.skills {
+    width: 100%;
+    height: 800px;
+    background-color: #d8d8d8ee;
+}
+
+.skills-inner {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.skills h2 {
+    font-size: 30px;
+    color: blue;
+}
+
+.skills h1 {
+    font-size: 50px;
+}
+
+.skills .contents {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.skills .contents li {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    padding: 15px;
+    font-size: 20px;
+
+    transition: 0.3s;
+}
+
+.skills h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.skills li:hover {
+    background-color: #ff6a6a;
+    color: white;
+    transform: scale(1.1);
+}
+
+.bg2 {
+    width: 100%;
+    height: 800px;
+
+    background: url(1.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Projects {
+    height: 1200px;
+}
+
+.contact {
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.contact-inner {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+
+
+.contact h2 {
+    font-size: 30px;
+    color: #ff6a6a;
+}
+
+.contact .contents {
+    width: 1200px;
+    height: 800px;
+    display: flex;
+}
+
+.contact .contents .left {
+    width: 400px;
+    height: 800px;
+
+}
+
+.contact .contents .right {
+    width: 800px;
+    height: 800px;
+
+}
+.info{
+    
+}
+.info li{
+    font-size: 30px;
+    border: 1px solid #d3d1d1;
+    margin-top: 50px;
+    width: 350px;
+    height: 130px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.contact .right h5{
+    font-weight: normal;
+    margin-top: 30px;
+}
+.contact .right input{
+    width: 700px;
+    height: 30px;
+    
+}
+.contact .right textarea{
+    width: 700px;
+    height: 300px;
+
+}
+.contact .right button{
+    width: 700px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+
+    margin-top: 50px;
+    border: none;
 }
